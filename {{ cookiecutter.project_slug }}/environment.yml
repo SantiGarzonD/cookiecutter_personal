@@ -1,0 +1,17 @@
+name: {{ cookiecutter.project_slug }}
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+{% if cookiecutter.project_packages == 'ALL' -%}
+  - cookiecutter=1.7.3
+  - python
+  - scipy
+  - matplotlib
+  - seaborn
+  - numpy
+  - scikit-learn
+  - pytorch
+  - keras
+  
+{% endif -%}
