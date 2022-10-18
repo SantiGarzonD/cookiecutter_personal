@@ -3,5 +3,5 @@
     "project_slug":"cookiecutter_personal",
     "project_description":"Something cool",
     "authorname":"Your Name",
-    "project_packages":["ALL","Minimal"],
+    "project_packages":["ALL","Minimal"]
 }
