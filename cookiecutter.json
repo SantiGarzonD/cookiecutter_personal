@@ -4,5 +4,4 @@
     "project_description":"Something cool",
     "authorname":"Your Name",
     "project_packages":["ALL","Minimal"],
-    "python_version":"3.7"
 }
